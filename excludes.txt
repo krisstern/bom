@@ -14,3 +14,6 @@ org.jenkinsci.plugins.pipeline.modeldefinition.TriggersTest
 
 # TODO https://issues.jenkins.io/browse/JENKINS-71793
 com.cloudbees.workflow.ui.view.WorkflowStageViewActionTest#testTimezoneRespectedInStageStartTime
+
+# TODO coverage plugin chart.json predates echarts-api zeroBasedYAxis (https://github.com/jenkinsci/echarts-api-plugin/issues/465)
+io.jenkins.plugins.coverage.metrics.charts.CoverageSeriesBuilderTest#shouldHaveTwoValuesForTwoBuilds
